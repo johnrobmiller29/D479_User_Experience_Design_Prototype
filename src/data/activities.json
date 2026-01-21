@@ -1,0 +1,138 @@
+{
+  "nature": [
+    {
+      "title": "Igneous Altitudes",
+      "description": "Private expeditions into the island’s tectonic origin, far above the reach of the tropics.",
+      "image": "volcano.jpg",
+      "span": "md:row-span-2"
+    },
+    {
+      "title": "Shoreline Sanctuaries",
+      "description": "An exclusive collection of hidden grottos and tidal coves curated for the discerning wanderer.",
+      "image": "rockyBeach.jpg",
+      "span": "md:row-span-1"
+    },
+    {
+      "title": "Highland Vistas",
+      "description": "Serene mountain perches above the clouds, offering a curated perspective on Taniti’s high-altitude wilderness.",
+      "image": "mountain.jpg",
+      "span": "md:row-span-1"
+    },
+    {
+      "title": "Cerulean Sands",
+      "description": "Pristine coastal havens ideal for the sun-seeker who values space as the ultimate luxury.",
+      "image": "sandyBeach.jpg",
+      "span": "md:col-span-2 md:row-span-1 md:col-start-2 md:row-start-2"
+    },
+    {
+      "title": "Emerald Conservatories",
+      "description": "Immersive guided treks through ancient rainforests, beneath towering trees and hidden waterfall clearings.",
+      "image": "rainforest.jpg",
+      "span": "md:row-span-2 md:col-start-4 md:row-start-1"
+    }
+  ],
+  "adventure": [
+    {
+      "title": "Archipelago Expeditions",
+      "description": "Unobstructed views of the island's volcanic spine and coastal frontiers",
+      "image": "helicopter.jpg",
+      "span": "md:row-span-2"
+    },
+    {
+      "title": "Marine Safaris",
+      "description": "Explorations of the ancient, submerged architecture and the protected biodiversity it supports.",
+      "image": "snorkeling.jpg",
+      "span": "md:col-span-2"
+    },
+    {
+      "title": "Canopy Transversals",
+      "description": "A high-altitude route through the suspended layers of the island's old-growth interior.",
+      "image": "zipline.jpg",
+      "span": "md:row-span-2"
+    },
+    {
+      "title": "Offshore Charters",
+      "description": "Sustainably managed excursions into the deep-water migratory paths of the Pacific.",
+      "image": "fishing.jpg",
+      "span": "md:col-span-2"
+    }
+  ],
+  "culture": [
+    {
+      "title": "The Island Archives",
+      "description": "A quiet study of the ancestral origins and preserved artifacts of the Tanitian people.",
+      "image": "/museum.jpg",
+      "span": "md:col-span-2"
+    },
+    {
+      "title": "Heritage Exhibits",
+      "description": "A rotating exhibition of local photography and fine art that captures the unique light and movement of the archipelago.",
+      "image": "/art.jpg",
+      "span": "md:col-span-1"
+    },
+    {
+      "title": "Tanitian Vernacular",
+      "description": "Exploring the functional beauty of traditional island builds and their sustainable relationship with the environment.",
+      "image": "/architecture.jpg",
+      "span": "md:col-span-1"
+    },
+    {
+      "title": "Interior Circuits",
+      "description": "A grounded survey of Taniti's social history and geographic vistas via the interior road network.",
+      "image": "/bus.png",
+      "span": "md:row-span-2 md:row-start-1 md:col-start-4"
+    },
+    {
+      "title": "Coastal Wayfinding",
+      "description": "A sea-based exploration of Taniti’s maritime borders and secret sea-level caves.",
+      "image": "/boat.jpg",
+      "span": "md:col-span-2"
+    }
+  ],
+  "nightlife": [
+    {
+      "title": "The Sound Collective",
+      "description": "A high-end lounge where tropical light and sound converge in a grounded, open-atmosphere setting.",
+      "image": "/club.jpg",
+      "span": "md:col-span-2 md:row-span-2 md:col-start-2"
+    },
+    {
+      "title": "Botanical Drafts",
+      "description": "A dedicated exploration of small-batch brewing, infused with the island’s seasonal flora and sustainable harvests.",
+      "image": "/brewery.jpg",
+      "span": "md:row-span-2"
+    },
+    {
+      "title": "The Harbor Exchange",
+      "description": "Grounded retreats offering a direct look into the island’s local life over regional spirits.",
+      "image": "/pubs.jpg",
+      "span": "md:row-span-2 md:row-start-1"
+    }
+  ],
+  "familyfun": [
+    {
+      "title": "Starlight Cinema",
+      "description": "A small-scale theater focused on clear, high-quality screenings of global films and new releases.",
+      "image": "/movies.jpg",
+      "span": "md:col-span-2"
+    },
+    {
+      "title": "The Circuit Cove",
+      "description": "An interactive pavilion for digital and analog play, curated to offer a quiet, modern take on classic island entertainment for all generations.",
+      "image": "/arcade.jpg",
+      "span": "md:col-span-2"
+    },
+    {
+      "title": "Timber & Tide Lanes",
+      "description": "A relaxed social venue with lanes crafted from local hardwoods, built for classic competition in a grounded, tropical atmosphere.",
+      "image": "/bowling.jpg",
+      "span": "md:col-span-2"
+    },
+    {
+      "title": "Shoreline Greens",
+      "description": "[Coming Soon] A curated 9-hole course woven into the natural contours of the coast for a scenic, unhurried game.",
+      "image": "/golf.jpg",
+      "span": "md:col-span-2 grayscale contrast-75 brightness-90"
+    }
+  ]
+}
