@@ -1,0 +1,23 @@
+---
+// src/components/NavLinks.ast
+interface Props {
+  href: string;
+}
+
+const { href } = Astro.props;
+const { pathname } = Astro.url;
+
+const isActive = href === pathname || href === pathname.replace(/\/$/, "");
+---
+
+<a
+  href={href}
+  class:list={[
+    "block w-full p-3 rounded-md text-left cursor-pointer lg:inline-block lg:w-auto lg:text-center lg:px-2 lg:py-3 motion-safe:transition-all duration-175 ease-in-out hover:shadow-md hover:scale-105",
+    isActive ? "opacity-100 hover:opacity-80" : "opacity-80 hover:opacity-100",
+  ]}
+>
+  <span class="no-underline text-lg/6">
+    <slot />
+  </span>
+</a>

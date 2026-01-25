@@ -1,0 +1,22 @@
+---
+import NavLink from "./NavLinks.astro";
+
+const navItems = [
+  { href: "/", label: "Home" },
+  { href: "/lodging", label: "Lodging" },
+  { href: "/transportation", label: "Transportation" },
+  { href: "/food", label: "Food" },
+  { href: "/faqs", label: "FAQs" },
+];
+const { isHeader = false } = Astro.props;
+---
+
+<nav
+  class:list={[
+    "flex gap-3 rounded-xl p-4 lg:gap-4 lg:w-auto lg:p-0",
+    isHeader ? "fixed top-18 right-0 z-999 w-2/3 md:top-20 lg:flex-row lg:static"
+      : "flex-col md:flex-row"
+  ]}
+>
+  {navItems.map((item) => <NavLink href={item.href}>{item.label}</NavLink>)}
+</nav>

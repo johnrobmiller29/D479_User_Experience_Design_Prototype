@@ -1,0 +1,26 @@
+---
+//src/components/footer.astro
+import Nav from "../components/Nav.astro";
+import SocialMenu from "../components/SocialMenu.astro";
+import { Icon } from "astro-icon/components";
+const siteName = "Taniti Tourism";
+---
+
+<footer class="flex flex-col w-full bg-emerald-900 text-white">
+  <div
+    class="flex justify-between items-center text-center w-full px-4 py-3 gap-4 md:px-6 md:gap-6 lg:px-18 lg:gap-10"
+  >
+    <a href="/" class="flex items-center">
+      <Icon name="tanitiLogo" class="w-auto h-20 object-contain md:h-25 lg:h-50 stroke-white">
+    </a>
+
+    <div id="nav-menu" class="lg:block">
+      <Nav 
+        isHeader={false}/>
+    </div>
+
+    <SocialMenu />
+  </div>
+
+  <hr class="my-3 border-t border-slate-400 w-full"/>
+</footer>

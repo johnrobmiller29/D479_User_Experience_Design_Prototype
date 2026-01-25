@@ -2,4 +2,6 @@
 
 @theme {
   --font-display: "Comfortaa", sans-serif;
+  --spacing-control-clamp: clamp(3.5rem, 8vw, 2.75rem);
+  --spacing-nav-btn-control: 2.75rem;
 }
